@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-position: center;
+}
+
+.cuadro{
+    margin: 10px auto;
+    border: 2px;
+    margin-bottom: 20px;
+    width: 930px;
+    height: 1075px;
+}
+
+.cuadro h1{
+    text-align: center;
+    font: 350% sans-serif;
+    color: white;
+}
+
+.cuadro .parrafo{
+    margin: 30px ;
+    margin-top: 10px;
+    width: 620px;
+    height: 920px;
+    font: 114% sans-serif;
+    margin-left: 10px;
+    line-height: 1.50em;
+    color: white;
+}
+
+.cuadro .parti{
+    margin: -900px auto;
+    margin-left: 690px;
+    
+    width: 220px;
+    height: 520px;
+}
+
+.cuadro .parti h3{
+    font: 120% sans-serif;
+    color: white;
+}
+
+.cuadro .parti p{
+    margin-top: 10px;
+    font: 120% sans-serif;
+    color: white;
+}
+
+.cuadro .imag{
+    width: 500px;
+    height: 250px;
+    margin-top: 525px;
+    margin-left: 630px;
+}
+
+.cuadro .imag img{
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    margin-left: 25px;
+}
+
+@media screen and (max-width:500px){
+    .cuadro{
+        width: 570px;
+    }
+
+    .cuadro h1{
+        text-align: center;
+        font: 280% sans-serif;
+    }
+
+    .cuadro .parrafo{
+        width: 500px;
+        margin-left: auto;
+    }
+
+    .cuadro .parti{
+        margin-left: auto;
+        margin: 50px;
+        margin-top: 250px;
+        width: 400px;
+        height: 200px;
+    }
+
+    .cuadro .parti h3{
+        font: 240% sans-serif;
+    }
+    
+    .cuadro .parti p{
+        margin-top: 10px;
+        font: 180% sans-serif;
+    }
+
+    .cuadro .imag{
+        margin-left: auto;
+        margin-top: -00px;
+    }
+
+    .cuadro .imag img{
+        width: 340px;
+        height: 250px;
+    }
+}
